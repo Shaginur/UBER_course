@@ -1,0 +1,104 @@
+header {
+  background-color: #212121;
+  height: 5.3rem;
+  position: relative;
+}
+
+.haeder-items {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.haeder-item {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px dashed #000;
+  box-sizing: border-box;
+}
+
+.haeder-item-a {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.nav-modal {
+  display: none;
+}
+
+.header-nav-modal {
+  display: none;
+  background-color: #212121;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.haeder-items-modal {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  padding-inline-start: 0;
+}
+
+.haeder-item-modal {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.haeder-item-modal:hover {
+  border-bottom: 1px #fff solid;
+  box-sizing: border-box;
+  opacity: 0.6;
+}
+
+.clouse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.3rem;
+  color: #fff;
+  opacity: 0.6;
+  background-color: #212121;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 938px) {
+  header {
+    height: 4rem;
+  }
+
+  .haeder-item {
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  header {
+    height: 3rem;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .nav-modal {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 3rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    opacity: 0.3;
+  }
+}

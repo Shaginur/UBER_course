@@ -1,0 +1,33 @@
+@import 'normalize.css';
+@import 'boodstrep-grid.css';
+@import 'header.css';
+@import 'uber.css';
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto_thin', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Roboto_thin', sans-serif;
+  src: url('../fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto_Medium', sans-serif;
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto_Light', sans-serif;
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto_Medium', sans-serif;
+  src: url('../fonts/Roboto-Bold.ttf');
+}

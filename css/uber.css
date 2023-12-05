@@ -1,0 +1,34 @@
+.uber {
+  background-image: url('../img/bg/uber_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-batton {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 1rem;
+}
+
+.header_batton-logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.header_batton-span {
+  opacity: 0.6;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+}
+
+.header_batton-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_batton-tel {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+}
