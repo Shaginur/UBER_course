@@ -1,0 +1,156 @@
+.bonus {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.container_bonus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.advantages {
+  background-color: #000;
+  color: #fff;
+  width: 115px;
+  height: 27px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  padding-top: 0.6rem;
+  box-sizing: border-box;
+}
+
+.title_black {
+  color: #222;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+}
+
+.bonus_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 4rem;
+}
+
+.bonus_items {
+  position: relative;
+}
+
+.bonus_item {
+  display: flex;
+  max-width: 47rem;
+  text-align: start;
+}
+
+.bonus_text-content {
+  padding-left: 5rem;
+  width: 31rem;
+}
+
+.bonus_subtitle {
+  color: #1eacc7;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.bonus_text {
+  color: #202020;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.1rem;
+}
+
+.one::before {
+  content: url('../img/icon/Rectangle.png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.two::before {
+  content: url('../img/icon/Rectangle (3).png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.three::before {
+  content: url('../img/icon/Rectangle (4).png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.four::before {
+  content: url('../img/icon/Rectangle (1).png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.five::before {
+  content: url('../img/icon/Rectangle (6).png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.six::before {
+  content: url('../img/icon/Rectangle (5).png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.seven::before {
+  content: url('../img/icon/Rectangle-1.png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.eight::before {
+  content: url('../img/icon/Rectangle (2).png');
+  display: flex;
+  border-radius: 50%;
+  background-color: #1eacc7;
+  width: 8.4rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}

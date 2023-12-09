@@ -2,6 +2,7 @@
   background-image: url('../img/bg/uber_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 31rem;
 }
 
 .header-batton {
@@ -191,5 +192,67 @@ h1 {
     justify-content: center;
     width: 16.2rem;
     height: 3.6rem;
+  }
+
+  .uber_span {
+    display: none;
+  }
+
+  .uber-btn {
+    width: 21.9rem;
+    height: 5.3rem;
+  }
+
+  h1 {
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header_batton-button {
+    width: 12.2rem;
+    height: 2.6rem;
+  }
+
+  .header_batton-img {
+    width: 16rem;
+  }
+
+  .header_batton-span1 {
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+
+  .header_batton-logo {
+    margin-right: 4rem;
+  }
+
+  h1 {
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+
+  .uber-btn {
+    width: 18.9rem;
+    height: 4.3rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .text_none {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .header_batton-logo {
+    margin: 0;
+  }
+
+  .header_batton-contact {
+    margin-right: 2rem;
   }
 }
