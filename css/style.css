@@ -6,6 +6,7 @@
 @import 'dvantage.css';
 @import 'car.css';
 @import 'conditions.css';
+@import 'map.css';
 
 html {
   font-size: 62.5%;
