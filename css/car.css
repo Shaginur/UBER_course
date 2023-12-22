@@ -12,6 +12,7 @@
   text-align: center;
   margin-top: 6rem;
   padding-top: 6rem;
+  width: 100%;
 }
 
 .car_advantages {
@@ -47,7 +48,7 @@
   height: 40rem;
   width: 100%;
   position: absolute;
-  top: 50rem;
+  top: 74rem;
   text-align: center;
 }
 
@@ -63,15 +64,32 @@
   line-height: 2.4rem;
 }
 
+@media screen and (max-width: 1440px) {
+  .car_substrate {
+    top: 74rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .car_substrate {
+    top: 59rem;
+  }
+
+  .car_substrate {
+    height: 32rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .car_substrate {
     height: 19rem;
-    top: 39rem;
+    top: 46rem;
   }
 
   .car_subtitle {
     font-size: 1.4rem;
     line-height: 1.6rem;
+    width: 90%;
   }
 
   .car_text {
@@ -79,9 +97,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .car_img {
-    width: 93%;
+    width: 90%;
     z-index: 1;
+  }
+
+  .car_substrate {
+    height: 19rem;
+    top: 31rem;
   }
 }

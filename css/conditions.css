@@ -1,0 +1,96 @@
+.conditions {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.conditions_wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin-top: 2rem;
+  gap: 42rem;
+  width: 100%;
+}
+
+.conditions_subtaitel {
+  color: #1ca8c3;
+  text-align: start;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.conditions_item-blue {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+
+.condotions-icon {
+  width: 2.1rem;
+  height: 2rem;
+}
+
+.condition_text {
+  font-size: 1.7rem;
+  font-style: normal;
+  padding-left: 1rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  text-align: start;
+}
+
+.sutaitel_conditions {
+  color: #1ca8c3;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.4rem;
+  display: flex;
+  justify-content: start;
+}
+
+.conditions_subtaitel-red {
+  text-align: start;
+  color: #ff5656;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .conditions_wrapper {
+    gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .conditions_wrapper {
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .condotions-icon {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .conditions_subtaitel-red,
+  .conditions_subtaitel-blu {
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+  }
+
+  .sutaitel_conditions {
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+  }
+
+  .condition_text {
+    font-size: 1.4rem;
+  }
+}

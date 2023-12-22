@@ -5,6 +5,7 @@
   margin-top: 6rem;
   text-align: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .dvantage_text {
@@ -70,4 +71,30 @@
   font-size: 1.6rem;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.title,
+.title_black {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .dvantage_wrapper-item {
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+
+  .dvantage_wrapper-item-text {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    padding-top: 8rem;
+  }
+
+  .dvantage_text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    width: 100%;
+  }
 }
