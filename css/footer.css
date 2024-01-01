@@ -1,0 +1,58 @@
+footer {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.divedar {
+  background-color: #1fbad6;
+  width: 30.1rem;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.help {
+  display: inline-flex;
+  padding: 1rem;
+  color: #999;
+  font-size: 11px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #070716;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .social,
+  .googl_plya {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+}
